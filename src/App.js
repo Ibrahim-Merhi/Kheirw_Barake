@@ -8,8 +8,8 @@ import Homepage from './pages/homepage/Homepage';
 import Aboutus from './components/Aboutus/Aboutus';
 import Contactus from './components/Contactus/Contactus';
 import Error from './pages/Error/Error404';
-import Login from './pages/acc_creation/Login.js';
-import Signup from './pages/acc_creation/Signup';
+import Sign from './pages/acc_creation/Sign.js';
+
 import Dashboard from './pages/dashboard/Dashboard';
 import Single from './components/Single/Single';
 import Store from './pages/Store/Store';
@@ -38,6 +38,9 @@ function App() {
           <Route exact path='/contact' element={< Contactus />}></Route>
           <Route exact path='/store' element={< Store />}></Route>
           <Route exact path='/store2' element={< Store2 />}></Route>
+          <Route exact path='/Sign' element={<Sign />}></Route>
+          
+
 
    </Routes>
    <Footer />

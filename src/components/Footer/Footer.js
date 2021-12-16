@@ -107,9 +107,9 @@ function Footer () {
                 style={{width: "60px", backgroundColor: "#7c4dff" , height: "2px"}}
                 /> */}
             <p><FaHome />"طرابلس"</p>
-            <p><FaMailBulk />  info@example.com</p>
-            <p><FaPhone /> + 01 234 567 88</p>
-            <p><FaPhone /> + 01 234 567 89</p>
+            <p><FaMailBulk />kheirwbarake@gmail.com</p>
+            <p><FaPhone /> +961 70 28 18 54</p>
+            
           </div>
           
         </div>

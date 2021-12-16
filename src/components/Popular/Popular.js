@@ -256,3 +256,51 @@ function Popular() {
 }
 
 export default Popular;
+
+
+
+
+{/* <div>
+<div className='container-fluid' >
+    <div className="row">
+        <div className="col-sm-12">
+            <h3>React Bootstrap Carousel</h3>
+        </div>
+    </div>
+    <div className="row">
+        <div className="col-6">
+            <Carousel>
+
+                <Carousel.Item>
+                    <img
+                        className="d-block w-50"
+                        src={ad}
+                        alt="First slide"
+                    />
+                    
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        className="d-block w-50"
+                        src={ad1}
+                        alt="Second slide"
+                    />
+
+                    
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        className="d-block w-50"
+                        src={ad2}
+                        alt="Third slide"
+                    />
+                    
+                </Carousel.Item>
+
+            </Carousel>
+        </div>
+    </div>
+</div>
+</div> */}

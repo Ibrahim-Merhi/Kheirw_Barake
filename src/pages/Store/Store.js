@@ -1,6 +1,7 @@
 import React from "react";
 import Testprod from '../../assets/images/products-1.jpg'
 import Searchbar from '../../components/Searchbar/Searchbar.js'
+import { Link } from "react-router-dom";
 const Store = () => {
     return (
 <>
@@ -11,7 +12,7 @@ const Store = () => {
 			<div className="col-md-12">
 				<div className="search-result bg-gray">
 					<h2>Results For "Electronics"</h2>
-					<p>123 Results on 12 December, 2017</p>
+					<p>123 Results</p>
 				</div>
 			</div>
 		</div>
@@ -28,7 +29,7 @@ const Store = () => {
 	</ul>
 </div>
 
-<div className="widget category-list">
+{/* <div className="widget category-list">
 	<h4 className="widget-header">Nearby</h4>
 	<ul className="category-list">
 		<li><a href="category.html">New York <span>93</span></a></li>
@@ -87,7 +88,7 @@ const Store = () => {
 	    Havely New
 	  </label>
 	</div>
-</div>
+</div> */}
 
 				</div>
 			</div>
@@ -108,10 +109,10 @@ const Store = () => {
 								<strong>Views</strong>
 								<ul className="list-inline view-switcher">
 									<li className="list-inline-item">
-										<a href="#" onclick="event.preventDefault();" className="text-info"><i className="fa fa-th-large"></i></a>
+										<Link to="/store2"><i className="fa fa-th-large "></i></Link>
 									</li>
 									<li className="list-inline-item">
-										<a href="ad-list-view.html"><i className="fa fa-reorder"></i></a>
+									<Link to="/store"><i className="fa fa-reorder text-info"></i></Link>
 									</li>
 								</ul>
 							</div>

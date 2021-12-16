@@ -1,7 +1,7 @@
 import React from "react";
 import Testprod from '../../assets/images/products-1.jpg'
 import Searchbar from '../../components/Searchbar/Searchbar.js'
-
+import { Link } from "react-router-dom";
 function Store2 () {
     return(
 <>
@@ -12,7 +12,7 @@ function Store2 () {
 			<div class="col-md-12">
 				<div class="search-result bg-gray">
 					<h2>Results For "Electronics"</h2>
-					<p>123 Results on 12 December, 2017</p>
+					<p>123 Results</p>
 				</div>
 			</div>
 		</div>
@@ -29,7 +29,7 @@ function Store2 () {
 	</ul>
 </div>
 
-<div class="widget category-list">
+{/* <div class="widget category-list">
 	<h4 class="widget-header">Nearby</h4>
 	<ul class="category-list">
 		<li><a href="category.html">New York <span>93</span></a></li>
@@ -39,9 +39,9 @@ function Store2 () {
 		<li><a href="category.html">Texas <span>40</span></a></li>
 		<li><a href="category.html">Alaska <span>81</span></a></li>
 	</ul>
-</div>
+</div> */}
 
-<div class="widget filter">
+{/* <div class="widget filter">
 	<h4 class="widget-header">Show Produts</h4>
 	<select>
 		<option>Popularity</option>
@@ -49,9 +49,9 @@ function Store2 () {
 		<option value="2">Lowest Price</option>
 		<option value="4">Highest Price</option>
 	</select>
-</div>
+</div> */}
 
-<div class="widget price-range w-100">
+{/* <div class="widget price-range w-100">
 	<h4 class="widget-header">Price Range</h4>
 	<div class="block">
 						<input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000" data-slider-step="5"
@@ -60,9 +60,9 @@ function Store2 () {
 						<span class="value">$10 - $5000</span>
 				</div>
 	</div>
-</div>
+</div> */}
 
-<div class="widget product-shorting">
+{/* <div class="widget product-shorting">
 	<h4 class="widget-header">By Condition</h4>
 	<div class="form-check">
 	  <label class="form-check-label">
@@ -88,7 +88,7 @@ function Store2 () {
 	    Havely New
 	  </label>
 	</div>
-</div>
+</div> */}
 
 				</div>
 			</div>
@@ -107,12 +107,12 @@ function Store2 () {
 						<div class="col-md-6">
 							<div class="view">
 								<strong>Views</strong>
-								<ul class="list-inline view-switcher">
-									<li class="list-inline-item">
-										<a href="category.html"><i class="fa fa-th-large"></i></a>
+								<ul className="list-inline view-switcher">
+									<li className="list-inline-item">
+										<Link to="/store2"><i className="fa fa-th-large text-info"></i></Link>
 									</li>
-									<li class="list-inline-item">
-										<a href="category.html" class="text-info"><i class="fa fa-reorder"></i></a>
+									<li className="list-inline-item">
+									<Link to="/store"><i className="fa fa-reorder "></i></Link>
 									</li>
 								</ul>
 							</div>

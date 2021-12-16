@@ -3,7 +3,12 @@ import './Aboutus.css'
 import home from '../../assets/images/home.jpg'
 import joe from '../../assets/images/test.jpg'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-
+import { Link } from "react-router-dom";
+import ad from '../../assets/images/pic07.jpg' 
+import ad1 from '../../assets/images/gim.jpg' 
+import ad2 from '../../assets/images/squad.jpg' 
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Aboutus() {
     return(
         <html lang="ar" dir="rtl">
@@ -20,10 +25,10 @@ function Aboutus() {
             	{/* <!-- Container End --> */}
             </section>
 
-            <section class="section">
+            <section class="section2">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 ">
                             <div class="about-img">
                                 <img src={home} class="img-fluid  rounded" alt="" />
                             </div>
@@ -55,48 +60,41 @@ function Aboutus() {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="heading text-center text-capitalize font-weight-bold py-5">
-                                <h2>our team</h2>
+                                <h2>نشاطات</h2>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="card my-3 my-lg-0">
-                                <img class="card-img-top" src={joe} class="img-fluid w-100" alt="Card image cap" />
+                                <img class="card-img-top img-fluid w-100" src={ad}  alt="Card " />
                                 <div class="card-body bg-gray text-center">
-                                    <h5 class="card-title">John Doe</h5>
-                                    <p class="card-text">Founder / CEO</p>
+                                    <h5 class="card-title">دائرة الأوقاف الإسلامية في طرابلس التابعة لدار الفتوى</h5>
+                                    {/* <p class="card-text">Founder / CEO</p> */}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="card my-3 my-lg-0">
-                                <img class="card-img-top" src={joe} class="img-fluid w-100" alt="Card image cap" />
+                                <a href="https://www.facebook.com/khieirWbarakeh/videos/467046361181544/" target='_blank' rel="noreferrer"><img class="card-img-top img-fluid w-100" src={ad1} alt="gim" /></a>
                                 <div class="card-body bg-gray text-center">
-                                    <h5 class="card-title">John Doe</h5>
-                                    <p class="card-text">Founder / CEO</p>
+                                    <h5 class="card-title">GIM Foundation</h5>
+                                    <a href="https://www.facebook.com/khieirWbarakeh/videos/467046361181544/" target='_blank' rel="noreferrer"><p class="card-text">للإطلاع على الفيديو الوثائقي</p></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="card my-3 my-lg-0">
-                                <img class="card-img-top" src={joe} class="img-fluid w-100" alt="Card image cap" />
+                                <a href="https://www.facebook.com/khieirWbarakeh/videos/517009472633955/" target='_blank' rel="noreferrer"><img class="card-img-top img-fluid w-100" src={ad2}  alt="squad" /></a>
                                 <div class="card-body bg-gray text-center">
-                                    <h5 class="card-title">John Doe</h5>
-                                    <p class="card-text">Founder / CEO</p>
+                                    <h5 class="card-title">Niqab squad</h5>
+                                    <a href="https://www.facebook.com/khieirWbarakeh/videos/517009472633955/" target='_blank' rel="noreferrer"><p class="card-text">للإطلاع على الفيديو الوثائقي</p></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="card my-3 my-lg-0">
-                                <img class="card-img-top" src={joe} class="img-fluid w-100" alt="Card image cap" />
-                                <div class="card-body bg-gray text-center">
-                                    <h5 class="card-title">John Doe</h5>
-                                    <p class="card-text">Founder / CEO</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
+           
         </html>    
     )
 }
