@@ -14,7 +14,7 @@ function Categories() {
             <div class="col-12">
               {/* <!-- Section title --> */}
               <div class="section-title">
-                <h2>All Categories</h2>
+                <h2>  الأصناف المتوفرة</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Perferendis, provident!
@@ -25,8 +25,10 @@ function Categories() {
                 <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
                   <div class="category-block">
                     <div class="header">
-                      <i class="fa fa-money icon-bg-1"></i>
-                      <h4>Electronics</h4>
+					  {/* <span class="icon-bg-1">	 */}
+                      <i class="fas fa-hand-holding-usd icon-bg-1" style={{color:'white'}}></i>
+					  {/* </span> */}
+                      <h4>صدقة وزكاة</h4>
                     </div>
                     <ul class="category-list">
                       <li>
@@ -57,8 +59,8 @@ function Categories() {
                 <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
                   <div class="category-block">
                     <div class="header">
-                      <i class="fa fa-apple icon-bg-2"></i>
-                      <h4>Restaurants</h4>
+                      <i class="fas fa-cheese icon-bg-2" style={{color:'white'}}></i>
+                      <h4>البان واجبان</h4>
                     </div>
                     <ul class="category-list">
                       <li>
@@ -89,8 +91,8 @@ function Categories() {
                 <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
                   <div class="category-block">
                     <div class="header">
-                      <i class="fa fa-home icon-bg-3"></i>
-                      <h4>Real Estate</h4>
+                      <i class="fas fa-cookie-bite icon-bg-3" style={{color:'white'}}></i>
+                      <h4>حلويات</h4>
                     </div>
                     <ul class="category-list">
                       <li>
@@ -121,8 +123,8 @@ function Categories() {
                 <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
                   <div class="category-block">
                     <div class="header">
-                      <i class="fa fa-shopping-basket icon-bg-4"></i>
-                      <h4>Shoppings</h4>
+                      <i class="fas fa-coffee icon-bg-4" style={{color:'white'}}></i>
+                      <h4>مشروبات</h4>
                     </div>
                     <ul class="category-list">
                       <li>
@@ -153,8 +155,8 @@ function Categories() {
                 <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
                   <div class="category-block">
                     <div class="header">
-                      <i class="fa fa-briefcase icon-bg-5"></i>
-                      <h4>Jobs</h4>
+                      <i class="fas fa-tshirt icon-bg-5" style={{color:'white'}}></i>
+                      <h4>البسة خارجية</h4>
                     </div>
                     <ul class="category-list">
                       <li>
@@ -185,8 +187,8 @@ function Categories() {
                 <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
                   <div class="category-block">
                     <div class="header">
-                      <i class="fa fa-car icon-bg-6"></i>
-                      <h4>Vehicles</h4>
+                      <i class="fas fa-gifts icon-bg-6" style={{color:'white'}}></i>
+                      <h4>اكسسوارات وهدايا</h4>
                     </div>
                     <ul class="category-list">
                       <li>
@@ -217,8 +219,8 @@ function Categories() {
                 <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
                   <div class="category-block">
                     <div class="header">
-                      <i class="fa fa-paw icon-bg-7"></i>
-                      <h4>Pets</h4>
+                      <i class="fas fa-box-tissue icon-bg-7" style={{color:'white'}}></i>
+                      <h4>كلينكس وحفاضات</h4>
                     </div>
                     <ul class="category-list">
                       <li>
@@ -249,8 +251,8 @@ function Categories() {
                 <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
                   <div class="category-block">
                     <div class="header">
-                      <i class="fa fa-laptop icon-bg-8"></i>
-                      <h4>Services</h4>
+                      <i class="fas fa-tshirt icon-bg-8" style={{color:'white'}}></i>
+                      <h4>بيجامات</h4>
                     </div>
                     <ul class="category-list">
                       <li>

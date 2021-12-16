@@ -4,12 +4,13 @@ import Testprod from "../../assets/images/products-1.jpg";
 
 function Popular() {
   return (
+    <html lang="ar" dir="rtl">
     <section class="popular-deals section bg-gray">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-titl">
-              <h2>Trending Adds</h2>
+              <h2>الأصناف الأكثر مبيع</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
                 magnam.
@@ -252,6 +253,7 @@ function Popular() {
           </div>
         </div>
     </section>
+    </html>
   );
 }
 

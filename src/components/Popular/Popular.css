@@ -4,6 +4,13 @@
     text-align: center;
     padding-top: 8%;
   }
+
+  @media (max-width:481px) {
+    .section-titl{
+      padding-top: 20%;
+    }
+    
+  }
   
   .section-titl h2 {
     font-size: 30px;

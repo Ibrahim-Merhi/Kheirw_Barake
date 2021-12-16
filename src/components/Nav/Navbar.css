@@ -4,3 +4,36 @@
     display: inline;
     margin-right: 3%;
   }
+.log-in-item {
+    padding-right: 60em !important;   
+}
+/* @media (max-width:1300px) {
+  .log-in-item {
+    padding-right: 45em !important;
+  }
+}
+@media (max-width:1250px) {
+  .log-in-item {
+    padding-right: 40em !important;
+  }
+}
+@media (max-width:1150px) {
+  .log-in-item {
+    padding-right: 35em !important;
+  }
+}
+@media (max-width:1050px) {
+  .log-in-item {
+    padding-right: 30em !important;
+  }
+}
+@media (max-width:950px) {
+  .log-in-item {
+    padding-right: 25em !important;
+  }
+}
+@media (max-width:750px) {
+  .log-in-item {
+    padding-right: 20em !important;
+  }
+} */

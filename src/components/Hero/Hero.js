@@ -42,10 +42,11 @@ function Hero ()  {
         							<div className="col-lg-12 col-md-12 align-content-center">
         								<form>
         									<div className="row">
-        										<div className="form-group col-md-4">
+												{/* the div below had className= "form-group col-md-4" */}
+        										<div className="form-group col-md-10">
         											<input type="text" className="form-control my-2 my-lg-1" id="inputtext4" placeholder="What are you looking for" />
         										</div>
-        										<div className="form-group col-md-3">
+        										{/* <div className="form-group col-md-3">
         											<select className="w-100 form-control mt-lg-1 mt-md-2">
         												<option>Category</option>
         												<option value="1">Top rated</option>
@@ -55,7 +56,7 @@ function Hero ()  {
         										</div>
         										<div className="form-group col-md-3">
         											<input type="text" className="form-control my-2 my-lg-1" id="inputLocation4" placeholder="Location" />
-        										</div>
+        										</div> */}
         										<div className="form-group col-md-2 align-self-center">
         											<button type="submit" className="btn btn-primary">Search Now</button>
         										</div>

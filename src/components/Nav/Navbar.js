@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 function Navbar () {
     return (
+        <html >
 		<nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
             <img src={logonb} alt='' className='imge' />
@@ -23,11 +24,12 @@ function Navbar () {
                 </div>
                 <form className="d-flex ms-auto">
                     
-                    <Link className='nav-iteam nav-link' to="/Sign"> <button type="submit" className="btn btn-outline-secondary">log in</button> </Link>
+                    <Link className='nav-iteam nav-link ' to="/Sign"> <button type="submit" className="btn btn-outline-secondary">log in</button> </Link>
                 </form>
             </div>
         </div>        
     </nav>
+    </html>
     )
 }
 
